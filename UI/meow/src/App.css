@@ -1,5 +1,16 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bentham&family=Castoro+Titling&family=Cinzel:wght@400..900&family=Orbitron:wght@400..900&family=Yuji+Mai&display=swap');
+
+.bentham-regular {
+  font-family: "Bentham", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.App h1 {
+  font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    color: #61dafb;
+    text-align: center;
 }
 
 .App-logo {
