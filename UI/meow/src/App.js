@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css'
-import Header from './header.js'
-import Footer from './footer.js'
-import Food from './food.js'
-import Card from './card.js'
-import buttonshot from './buttonshot.js';
-
+import Header from './components/header.js'
+import Footer from './components/footer.js'
+import Food from './components/food.js'
+import Card from './components/card.js'
+import Buttonshot from './components/buttenshot.js';
 function App() {
 
     return(
@@ -14,8 +13,8 @@ function App() {
         <Food/>
         <Card/>
         <Card/>
-        <Footer/>
-
+        <Footer/> 
+        <Buttonshot/>  
         </>
     );
 }
